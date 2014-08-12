@@ -1,0 +1,14 @@
+#+TITLE: i3 脚本收集
+
+* 需要的软件
+  - i3
+  - Python 2.7
+  - i3-py （比如： ~sudo pip install i3-py~ ）
+  - 给脚本执行权限 （比如： ~chmod a+x xxx.py~ ）
+
+* 交换两个显示器上的工作区间
+  把下面这行放到 i3 的配置文件中，然后重新加载之：
+
+  #+BEGIN_SRC conf
+  bindsym $mod+Shift+s exec /path/to/i3-scripts/swap-workspace.py
+  #+END_SRC
