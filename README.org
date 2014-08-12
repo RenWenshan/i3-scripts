@@ -1,0 +1,10 @@
+#+TITLE: i3 scripts collection
+
+First, make sure all scripts are executable.
+
+* Swap Workspaces on Two Monitors
+  Put the following line in your i3 config file and reload:
+
+  #+BEGIN_SRC conf
+  bindsym $mod+Shift+s exec /path/to/i3-scripts/swap-workspace.py
+  #+END_SRC
