@@ -3,7 +3,8 @@
 * Pre-requisites
   - i3
   - Python 2.7
-  - i3-py (~sudo pip install i3-py~)
+  - i3-py (e.g. ~sudo pip install i3-py~)
+  - Make sure all scripts are executable (e.g. ~chmod a+x xxx.py~)
 
 * Swap Workspaces on Two Monitors
   Put the following line in your i3 config file and reload:
