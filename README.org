@@ -1,6 +1,9 @@
 #+TITLE: i3 scripts collection
 
-First, make sure all scripts are executable.
+* Pre-requistes
+  - i3
+  - Python 2.7
+  - i3-py (~sudo pip install i3-py~)
 
 * Swap Workspaces on Two Monitors
   Put the following line in your i3 config file and reload:
