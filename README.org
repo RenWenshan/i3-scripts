@@ -1,6 +1,6 @@
 #+TITLE: i3 scripts collection
 
-* Pre-requistes
+* Pre-requisites
   - i3
   - Python 2.7
   - i3-py (~sudo pip install i3-py~)
